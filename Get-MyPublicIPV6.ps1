@@ -1,6 +1,6 @@
 # Get public IPV6 from IP Info and paste to clipboard
 
-$result = (Invoke-RestMethod https://ident.me)+"/32"  | Set-Clipboard
+$result = (Invoke-RestMethod https://ident.me)+"/128"  | Set-Clipboard
 
 # Add forms assembly
 
